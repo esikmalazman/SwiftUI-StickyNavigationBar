@@ -40,6 +40,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F5B460C29E9242800EC67FC /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				7F5B58C629E865860057E485 /* Layout Guide.png */,
+				7F5B58CC29E8725E0057E485 /* Scroll Animation Guide.png */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+		7F5B460D29E9243700EC67FC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7F5B58CA29E86CD50057E485 /* SecondaryNavigationBarButton.swift */,
+				7F5B58C829E86CA10057E485 /* Feed.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		7F5B58AC29E865210057E485 = {
 			isa = PBXGroup;
 			children = (
@@ -59,13 +77,11 @@
 		7F5B58B729E865210057E485 /* CustomNavigationBar-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				7F5B58C629E865860057E485 /* Layout Guide.png */,
-				7F5B58CC29E8725E0057E485 /* Scroll Animation Guide.png */,
-				7F5B58B829E865210057E485 /* CustomNavigationBar_SwiftUIApp.swift */,
-				7F5B58BA29E865210057E485 /* ContentView.swift */,
-				7F5B58C829E86CA10057E485 /* Feed.swift */,
-				7F5B58CA29E86CD50057E485 /* SecondaryNavigationBarButton.swift */,
 				7F5B58BC29E865230057E485 /* Assets.xcassets */,
+				7F5B58B829E865210057E485 /* CustomNavigationBar_SwiftUIApp.swift */,
+				7F5B460C29E9242800EC67FC /* Reference */,
+				7F5B460D29E9243700EC67FC /* Components */,
+				7F5B58BA29E865210057E485 /* ContentView.swift */,
 				7F5B58BE29E865230057E485 /* Preview Content */,
 			);
 			path = "CustomNavigationBar-SwiftUI";
